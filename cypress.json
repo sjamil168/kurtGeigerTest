@@ -1,2 +1,7 @@
 {
+  "testFiles": "**/*.feature",
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "baseUrl": "https://www.kurtgeiger.com/",
+  "watchForFileChanges": false
 }
