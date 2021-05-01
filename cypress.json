@@ -3,5 +3,6 @@
   "viewportWidth": 1280,
   "viewportHeight": 720,
   "baseUrl": "https://www.kurtgeiger.com/",
+  "requestTimeout": 10000,
   "watchForFileChanges": false
 }
