@@ -1,0 +1,28 @@
+{
+  "name": "kurtgeigerexercise",
+  "version": "1.0.0",
+  "description": "exercise for kurt geiger interview",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjamil168/kurtGeigerTest.git"
+  },
+  "keywords": [
+    "e2e",
+    "cypress",
+    "UI"
+  ],
+  "author": "Samir Jamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjamil168/kurtGeigerTest/issues"
+  },
+  "homepage": "https://github.com/sjamil168/kurtGeigerTest#readme",
+  "devDependencies": {
+    "cypress": "^7.2.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  }
+}
