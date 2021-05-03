@@ -3,10 +3,11 @@ import { Given, Then, When } from "cypress-cucumber-preprocessor/steps";
 const MensShoesPage = require("../../page_objects/mensShoesPage");
 
 Given('I am on the homepage',  ()=>{
-    cy.visit('https://www.kurtgeiger.com/')
+    MensShoesPage.navigate()
 });
 
 Given('I select men category from the header', ()=> {
+    MensShoesPage.closeBanners()
     MensShoesPage.showMensShoesHover()
 });
 

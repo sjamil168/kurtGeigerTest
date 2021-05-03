@@ -2,10 +2,6 @@ import { Given, Then, When } from "cypress-cucumber-preprocessor/steps";
 const MensShoesPage = require("../../page_objects/mensShoesPage");
 const CheckOutPage = require("../../page_objects/checkOutPage")
 
-beforeEach(() =>{
-    cy.visit('/')
-
-})
 Given('I am on PDP', ()=> {
 
     cy.get("[class='nav-item-link___1CNeA']").find("span").contains('Men').click();
