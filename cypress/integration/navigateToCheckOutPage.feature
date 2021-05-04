@@ -4,7 +4,7 @@
 Feature: Navigate to Checkout Page
   Description: As a user I should be able to navigate to checkout page after adding item to basket
 
-  Scenario: Navigate to Checkout page Boots
+  Scenario: Navigate to Checkout page
     Given I select men category from the header
     And I am on PDP
     When I select any colour and size for the chosen men category
