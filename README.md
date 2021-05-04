@@ -1,11 +1,19 @@
-Clone project
+# Prerequisites:
+1. node
+2. chrome browser
 
-npm init
+# Installation
+#### 1. Clone the project: 
+git clone https://github.com/sjamil168/kurtGeigerTest.git
+#### 2. Install node modules
+* *npm install*
 
-npm install cypress
+# Running the tests
+#### Running in UI mode(In Chrome browser):
+* *cypress open*
+* From the dashboard select a test to run or run all
 
-npm install cypress cucumber pre processor
+#### Running in Headless Mode:
+* *cypress run*
+* Will run headlessly in terminal, will generate video documentation of test, this can be configured to be turned off *
 
-add cypress script to package
-
-init git

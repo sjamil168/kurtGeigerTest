@@ -4,7 +4,8 @@
   "description": "exercise for kurt geiger interview",
   "main": "index.js",
   "scripts": {
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "headless": "cypress run"
   },
   "repository": {
     "type": "git",

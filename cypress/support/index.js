@@ -19,6 +19,7 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
+//this will skip any uncaught exceptions found on the website. Usually cypress will terminate a test if uncaught exception is detected
 Cypress.on('uncaught:exception', (err, runnable) => {
     // returning false here prevents Cypress from
     // failing the test

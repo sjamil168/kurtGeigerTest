@@ -15,6 +15,8 @@
 /**
  * @type {Cypress.PluginConfig}
  */
+
+//plug in for cypress-cucumber-preprocessor
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = (on, config) => {
